@@ -30,7 +30,10 @@ stages:
         arguments: --build-arg build=$(build)
         repository: 'renkman/dockersandbox'
     - task: Docker@2
+      displayName: Push the image
       inputs:
         containerRegistry: 'Docker Repository'
         repository: 'renkman/dockersandbox'
         command: 'push'
+        tags: |
+          $(build)
