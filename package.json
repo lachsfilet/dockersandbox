@@ -1,0 +1,14 @@
+{
+  "name": "dockersandbox",
+  "version": "0.1.0",
+  "description": "Play with Docker arguments and Node.js",
+  "author": "Jan Renken",
+  "main": "server.js",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
