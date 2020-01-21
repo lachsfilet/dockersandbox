@@ -5,6 +5,7 @@
   "author": "Jan Renken",
   "main": "server.js",
   "license": "GPL-3.0",
+  "repository": "https://github.com/lachsfilet/dockersandbox.git",
   "scripts": {
     "start": "node server.js"
   },
